@@ -1,72 +1,73 @@
-Project Charter – ADS-B SDR
+# Project Charter – ADS-B SDR
 
-Contexte
+## Contexte
 
 First Virtual Company lance un projet de recherche et développement visant à concevoir un récepteur ADS-B basé sur un SDR ADALM-Pluto.
 
-Le projet a pour ambition de démontrer la faisabilité d’une chaîne complète de réception, décodage et visualisation des données ADS-B tout en construisant une architecture logicielle réutilisable.
+Le projet a pour ambition de démontrer la faisabilité d'une chaîne complète de réception, décodage et visualisation des données ADS-B tout en construisant une architecture logicielle réutilisable.
 
-⸻
+---
 
-Objectifs
+## Objectifs
 
-Objectif principal
+### Objectif principal
 
-Développer un prototype fonctionnel capable de recevoir, décoder et afficher les données ADS-B à 1090 MHz à partir d’un ADALM-Pluto SDR dans un horizon de trois mois.
+Développer un prototype fonctionnel capable de recevoir, décoder et afficher les données ADS-B à 1090 MHz à partir d'un ADALM-Pluto SDR dans un horizon de trois mois.
 
-Objectifs détaillés
+### Objectifs détaillés
 
-* Recevoir les trames ADS-B à 1090 MHz
-* Réaliser l’acquisition RF du signal
-* Démoduler les trames ADS-B
-* Décoder les messages Mode-S
-* Afficher les aéronefs détectés
-* Étudier les performances radio de la solution
-* Construire une architecture logicielle réutilisable
-* Maintenir un coût matériel faible
-* Produire une documentation complète du système
+- Recevoir les trames ADS-B à 1090 MHz
+- Réaliser l'acquisition RF du signal
+- Démoduler les trames ADS-B
+- Décoder les messages Mode-S
+- Afficher les aéronefs détectés
+- Étudier les performances radio de la solution
+- Construire une architecture logicielle réutilisable
+- Maintenir un coût matériel faible
+- Produire une documentation complète du système
 
-⸻
+---
 
-Livrables
+## Livrables
 
-L1 – Architecture du système
+### L1 – Architecture du système
 
-* Description de l’architecture matérielle et logicielle
-* Diagrammes de flux de traitement
+- Description de l'architecture matérielle et logicielle
+- Diagrammes de flux de traitement
 
-L2 – Chaîne de réception SDR
+### L2 – Chaîne de réception SDR
 
-* Configuration ADALM-Pluto
-* Module d’acquisition RF
+- Configuration ADALM-Pluto
+- Module d'acquisition RF
 
-L3 – Chaîne de traitement ADS-B
+### L3 – Chaîne de traitement ADS-B
 
-* Module de démodulation
-* Module de décodage Mode-S
+- Module de démodulation
+- Module de décodage Mode-S
 
-L4 – Interface de visualisation
+### L4 – Interface de visualisation
 
-* Affichage des aéronefs détectés
-* Visualisation des informations essentielles
+- Affichage des aéronefs détectés
+- Visualisation des informations essentielles
 
-L5 – Rapport d’évaluation
+### L5 – Rapport d'évaluation
 
-* Mesures de performances radio
-* Analyse des limites
-* Recommandations d’amélioration
+- Mesures de performances radio
+- Analyse des limites
+- Recommandations d'amélioration
 
-L6 – Documentation complète
+### L6 – Documentation complète
 
-* Guide d’installation
-* Guide utilisateur
-* Documentation technique
-* Procédure de reproduction du prototype
+- Guide d'installation
+- Guide utilisateur
+- Documentation technique
+- Procédure de reproduction du prototype
 
-⸻
+---
 
-Jalons
+## Jalons
 
+```text
 +------+------------------------------------------+----------------+
 | ID   | Description                              | Échéance       |
 +------+------------------------------------------+----------------+
@@ -77,11 +78,13 @@ Jalons
 | M5   | Validation des performances              | Semaine 11     |
 | M6   | Prototype complet et documentation       | Fin du mois 3  |
 +------+------------------------------------------+----------------+
+```
 
-⸻
+---
 
-Risques
+## Risques
 
+```text
 +--------------------------------------+--------+----------------------------------------------+
 | Risque                               | Impact | Plan de mitigation                           |
 +--------------------------------------+--------+----------------------------------------------+
@@ -92,25 +95,27 @@ Risques
 | Documentation incomplète             | Moyen  | Documentation à chaque jalon                 |
 | Dépassement du délai de 3 mois       | Élevé  | Priorisation des fonctionnalités critiques   |
 +--------------------------------------+--------+----------------------------------------------+
+```
 
-⸻
+---
 
-Critères de succès
+## Critères de succès
 
 Le projet sera considéré comme réussi lorsque :
 
-* Les trames ADS-B à 1090 MHz sont correctement reçues.
-* Les messages Mode-S sont décodés avec succès.
-* Les aéronefs détectés sont affichés de manière exploitable.
-* Le prototype fonctionne sur la plateforme ADALM-Pluto.
-* Les performances radio sont documentées et analysées.
-* La documentation permet à un tiers de reproduire le système.
-* L’architecture développée est réutilisable pour d’autres projets SDR.
+- Les trames ADS-B à 1090 MHz sont correctement reçues.
+- Les messages Mode-S sont décodés avec succès.
+- Les aéronefs détectés sont affichés de manière exploitable.
+- Le prototype fonctionne sur la plateforme ADALM-Pluto.
+- Les performances radio sont documentées et analysées.
+- La documentation permet à un tiers de reproduire le système.
+- L'architecture développée est réutilisable pour d'autres projets SDR.
 
-⸻
+---
 
-Gouvernance
+## Gouvernance
 
+```text
 +----------------+------------------------------------+
 | Élément        | Valeur                             |
 +----------------+------------------------------------+
@@ -120,14 +125,15 @@ Gouvernance
 | Durée cible    | 3 mois                             |
 | Statut initial | Projet de lancement                |
 +----------------+------------------------------------+
+```
 
-⸻
+---
 
-Validation finale
+## Validation finale
 
 Le projet sera clôturé après :
 
-* Validation de l’ensemble des livrables
-* Démonstration du prototype en environnement réel
-* Publication de la documentation complète
-* Validation par le sponsor du projet
+- Validation de l'ensemble des livrables
+- Démonstration du prototype en environnement réel
+- Publication de la documentation complète
+- Validation par le sponsor du projet
