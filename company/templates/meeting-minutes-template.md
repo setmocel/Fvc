@@ -1,66 +1,50 @@
-# Étude technique XXX
+# Compte-rendu
+
+## Réunion
+
+---
+
+## Date
+
+---
+
+## Participants
+
+-
+
+---
 
 ## Objectif
 
 ---
 
-## Contexte
+## Points discutés
+
+### Sujet 1
+
+Résumé
 
 ---
 
-## Question étudiée
+### Sujet 2
+
+Résumé
 
 ---
 
-## Critères d'évaluation
+## Décisions
 
--
-
--
-
--
+| ID | Décision |
+|----|----------|
+| D-001 | |
 
 ---
 
-## Solutions étudiées
+## Actions
 
-### Solution A
-
-Description
-
-#### Avantages
-
--
-
-#### Inconvénients
-
--
-
----
-
-### Solution B
-
-Description
-
-#### Avantages
-
--
-
-#### Inconvénients
-
--
-
----
-
-## Comparaison
-
-| Critère | Solution A | Solution B |
-|----------|------------|------------|
+| Action | Responsable | Échéance |
+|----------|-------------|----------|
 | | | |
-
----
-
-## Recommandation
 
 ---
 
@@ -70,6 +54,6 @@ Description
 
 ---
 
-## Références
+## Documents impactés
 
 -
