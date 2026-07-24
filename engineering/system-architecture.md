@@ -19,7 +19,7 @@ L’architecture recommandée est une chaîne de traitement de signal en flux co
 3. **Décodage et enrichissement** : les trames validées sont décodées, horodatées, normalisées et éventuellement enrichies par calculs dérivés.
 4. **Présentation et exploitation** : les aéronefs détectés sont affichés dans une interface utilisateur et exposés à d’autres usages via des sorties de données structurées.
 
-Cette architecture privilégie une séparation nette entre traitement radio, logique de décodage et présentation afin de faciliter la réutilisation et les évolutions futures. fileciteturn5file0L14-L25
+Cette architecture privilégie une séparation nette entre traitement radio, logique de décodage et présentation afin de faciliter la réutilisation et les évolutions futures.
 
 En première intention, je recommande une **application monolithique modulaire** plutôt qu’une architecture distribuée. Pour un prototype à trois mois, cela réduit la complexité d’intégration, simplifie les tests et limite les risques d’interface. Une architecture plus distribuée pourra être envisagée plus tard si le besoin de partage multi-consommateurs, de scalabilité ou de séparation forte des responsabilités devient déterminant.
 
@@ -200,7 +200,7 @@ Recommandation :
 4. Le système peut fonctionner localement, sans dépendance à un backend distant.
 5. La réutilisabilité demandée doit d’abord être obtenue par modularité logicielle, pas par distribution des services.
 6. Les performances attendues restent compatibles avec un traitement logiciel classique, mais cela devra être confirmé par étude et mesure.
-7. La solution doit rester faible coût, ce qui exclut a priori les architectures matérielles ou logicielles inutilement complexes. fileciteturn5file0L21-L25
+7. La solution doit rester faible coût, ce qui exclut a priori les architectures matérielles ou logicielles inutilement complexes.
 
 ## Décisions d’architecture à prendre
 
