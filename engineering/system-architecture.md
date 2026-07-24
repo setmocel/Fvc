@@ -2,13 +2,13 @@
 
 ## Objectif
 
-Définir une première architecture système cohérente pour le projet ADS-B SDR de First Virtual Company, en tenant compte des besoins métier, des contraintes de coût et de réutilisabilité, et du cadre documentaire du projet. Cette version sert de base de travail pour le Developer, le QA Manager et les futurs ADR. fileciteturn0file0L5-L15 fileciteturn5file0L14-L25
+Définir une première architecture système cohérente pour le projet ADS-B SDR de First Virtual Company, en tenant compte des besoins métier, des contraintes de coût et de réutilisabilité, et du cadre documentaire du projet. Cette version sert de base de travail pour le Developer, le QA Manager et les futurs ADR.
 
 ## Contexte
 
-Le projet vise la conception d’un récepteur ADS-B basé sur un SDR ADALM-Pluto, capable de recevoir des trames à 1090 MHz, de décoder des messages Mode-S et d’afficher les aéronefs détectés. L’entreprise demande aussi une architecture réutilisable, avec une documentation complète, et un prototype fonctionnel sous trois mois. fileciteturn0file0L11-L19 fileciteturn5file0L5-L25
+Le projet vise la conception d’un récepteur ADS-B basé sur un SDR ADALM-Pluto, capable de recevoir des trames à 1090 MHz, de décoder des messages Mode-S et d’afficher les aéronefs détectés. L’entreprise demande aussi une architecture réutilisable, avec une documentation complète, et un prototype fonctionnel sous trois mois.
 
-Le cadre d’exécution est fortement documenté : la vision, le backlog, la recherche, l’architecture, l’implémentation et la validation sont séparées en artefacts GitHub, et le dépôt est la source de vérité. Le System Architect est responsable de l’architecture système, des composants et des ADR. Le Developer et le QA Manager prendront ensuite le relais pour l’implémentation et la validation. fileciteturn1file0L91-L109 fileciteturn2file0L64-L72 fileciteturn3file0L100-L115
+Le cadre d’exécution est fortement documenté : la vision, le backlog, la recherche, l’architecture, l’implémentation et la validation sont séparées en artefacts GitHub, et le dépôt est la source de vérité. Le System Architect est responsable de l’architecture système, des composants et des ADR. Le Developer et le QA Manager prendront ensuite le relais pour l’implémentation et la validation.
 
 ## Architecture globale
 
